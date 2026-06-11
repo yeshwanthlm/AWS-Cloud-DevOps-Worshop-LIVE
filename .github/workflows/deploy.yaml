@@ -34,5 +34,5 @@ jobs:
             sudo apt-get install -y apache2
             sudo systemctl start apache2
             sudo systemctl enable apache2
-            sudo cp /home/ubuntu/index.html /var/www/html/index.html
-            sudo cp /home/ubuntu/style.css /var/www/html/style.css
+            sudo cp /home/ubuntu/module-2-cicd/index.html /var/www/html/index.html
+            sudo cp /home/ubuntu/module-2-cicd/style.css /var/www/html/style.css
